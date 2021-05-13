@@ -5,5 +5,9 @@
 
 
 // Promise
-import promiseSample from "./asynchronous/promise";
-promiseSample();
+// import promiseSample from "./asynchronous/promise";
+// promiseSample();
+
+// Async/Await
+import asyncAwaitSample from "./asynchronous/asyncAwait";
+asyncAwaitSample();
