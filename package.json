@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode=production",
+    "build": "webpack --mode=development",
     "start": "webpack-cli serve --mode development",
     "lint": "eslint --fix 'src/**/*.{js,ts}'",
     "lint-fix": "eslint --fix './src/**/*.{js,ts}' && prettier --write './src/**/*.{js,ts}'"
@@ -34,5 +34,8 @@
     "src/**/*.{js,jsx,ts,tsx}": [
       "npm run lint-fix"
     ]
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
   }
 }

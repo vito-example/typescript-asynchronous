@@ -1,1 +1,2 @@
-console.log(1234)
+import callbackSample from './asynchronous/callback';
+callbackSample();
