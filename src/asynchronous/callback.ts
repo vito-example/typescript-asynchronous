@@ -1,4 +1,4 @@
-export default function () {
+export default function callbackSample() {
     const url = 'https://api.github.com/users/makhatadze';
 
     const fetchProfile = () => {
